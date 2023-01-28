@@ -16,8 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+/**
+ * The min game "loop", called when the script is first loaded
+ * ans after the user's answer has been processed
+ */
 function runGame() {
 
+    //Create two ransom numbers between 1 and 25
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer() {
