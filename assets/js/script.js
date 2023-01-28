@@ -38,8 +38,8 @@ function runGame(gameType) {
 }
 
 /**
- * Checks the answr agianst the first element in 
- * the returned claculateCorrectAnswwer array
+ * Checks the answer agianst the first element in the 
+ * the returned claculateCorrectAnswer array
  */
 function checkAnswer() {
     let userAnswer = parseInt(document.getElementById("answer-box").value);
@@ -69,8 +69,6 @@ function checkAnswer() {
         let operand2 = parseInt(document.getElementById('operand2').innerText);
         let operator = document.getElementById("operator").innerText;
 
-
-    }
     if (operator === "+") {
         return [operand1 + operand2, "addition"];
     } else {
